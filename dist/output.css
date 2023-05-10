@@ -649,12 +649,29 @@ html {
   padding-bottom: 2rem;
 }
 
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pb-2{
   padding-bottom: 0.5rem;
 }
 
 .pt-8{
   padding-top: 2rem;
+}
+
+.pt-4{
+  padding-top: 1rem;
+}
+
+.pb-6{
+  padding-bottom: 1.5rem;
+}
+
+.pt-6{
+  padding-top: 1.5rem;
 }
 
 .text-center{
@@ -726,6 +743,10 @@ html {
     flex-direction: row;
   }
 
+  .lg\:flex-col{
+    flex-direction: column;
+  }
+
   .lg\:flex-wrap{
     flex-wrap: wrap;
   }
@@ -733,5 +754,10 @@ html {
   .lg\:py-8{
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .lg\:py-6{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 }
